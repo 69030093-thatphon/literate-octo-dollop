@@ -1,5 +1,0 @@
-numpy
-Pillow
-pynput
-mss
-pyinstaller
