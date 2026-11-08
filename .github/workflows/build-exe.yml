@@ -10,6 +10,9 @@ on:
 permissions:
   contents: write   # ต้องใช้ตอนสร้าง Release จาก tag
 
+env:
+  PYTHONUTF8: "1"   # runner Windows ใช้ cp1252 ทำให้ print ภาษาไทยใน test/สคริปต์ crash
+
 jobs:
   build:
     runs-on: windows-latest
